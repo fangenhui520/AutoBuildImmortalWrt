@@ -49,7 +49,7 @@ PACKAGES=""
 PACKAGES="$PACKAGES curl luci luci-i18n-base-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 #24.10.0
-PACKAGES="$PACKAGES luci-i18n-package-ddns-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-natmap-zh-cn"
 PACKAGES="$PACKAGES kmod-usb-storage"
