@@ -63,6 +63,7 @@ PACKAGES="$PACKAGES kmod-usb-storage"
 PACKAGES="$PACKAGES kmod-usb-storage-extras"
 PACKAGES="$PACKAGES kmod-usb2"
 PACKAGES="$PACKAGES kmod-fs-exfat"
+PACKAGES="$PACKAGES kmod-usb-xhci-mtk"
 
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
