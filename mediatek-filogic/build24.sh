@@ -52,10 +52,11 @@ PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-natmap-zh-cn"
+PACKAGES="$PACKAGES kmod-usb-core"
 PACKAGES="$PACKAGES kmod-usb-storage"
 PACKAGES="$PACKAGES kmod-usb-storage-extras"
 PACKAGES="$PACKAGES kmod-usb2"
-PACKAGES="$PACKAGES kmod-fs-ext4"
+PACKAGES="$PACKAGES kmod-fs-exfat"
 
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
