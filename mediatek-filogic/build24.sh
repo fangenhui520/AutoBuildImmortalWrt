@@ -48,18 +48,20 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - Starting build process..."
 PACKAGES=""
 PACKAGES="$PACKAGES curl luci luci-i18n-base-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
-PACKAGES="$PACKAGES luci-theme-argon"
-PACKAGES="$PACKAGES luci-app-argon-config"
-PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 #24.10.0
-PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-PACKAGES="$PACKAGES openssh-sftp-server"
-# 文件管理器
-PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
-# 静态文件服务器dufs(推荐)
-PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-ksmbd-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-natmap-zh-cn"
+#PACKAGES="$PACKAGES kmod-usb-core"
+#PACKAGES="$PACKAGES kmod-usb-storage"
+#PACKAGES="$PACKAGES kmod-usb-storage-extras"
+#PACKAGES="$PACKAGES kmod-usb2"
+#PACKAGES="$PACKAGES kmod-fs-exfat"
+#PACKAGES="$PACKAGES kmod-fs-ext4"
+#PACKAGES="$PACKAGES kmod-fs-vfat"
+
 
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
