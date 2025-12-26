@@ -49,8 +49,8 @@ PACKAGES=""
 PACKAGES="$PACKAGES curl luci luci-i18n-base-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 #24.10.0
-#PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
-#PACKAGES="$PACKAGES luci-i18n-ksmbd-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-ksmbd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-natmap-zh-cn"
@@ -60,9 +60,9 @@ PACKAGES="$PACKAGES kmod-usb-storage-extras"
 PACKAGES="$PACKAGES kmod-usb2"
 PACKAGES="$PACKAGES kmod-usb-xhci-mtk"
 PACKAGES="$PACKAGES kmod-fs-exfat"
-#PACKAGES="$PACKAGES kmod-fs-ext4"
+PACKAGES="$PACKAGES kmod-fs-ext4"
 PACKAGES="$PACKAGES kmod-fs-vfat"
-
+PACKAGES="$PACKAGES ddns-scripts-cloudflare"
 
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
