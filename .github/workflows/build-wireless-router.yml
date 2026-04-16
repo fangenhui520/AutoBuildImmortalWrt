@@ -578,7 +578,7 @@ jobs:
           mt7621_models=$(cat model/mt7621.txt | tr '\n' '|')
           mt7621_models=${mt7621_models%|}
           if [[ "$profile" =~ ^($mt7621_models)$ ]]; then
-              case_tag="ramips-mt7621-openwrt-24.10.5"
+              case_tag="ramips-mt7621-openwrt-23.05.4"
               case_platform="ramips/mt7621"
           fi
 
@@ -620,7 +620,7 @@ jobs:
               qihoo_360t7-ubootmod)
                   tag=mediatek-filogic-openwrt-23.05.4
                   ls ${{ github.workspace }}/mediatek-filogic/
-                  cp ${{ github.workspace }}/mediatek-filogic/build23.sh ${{ github.workspace }}/mediatek-filogic/build24.sh
+                  cp ${{ github.workspace }}/mediatek-filogic/build23.sh ${{ github.workspace }}/mediatek-filogic/build23.sh
                   ;;
               *)
                   # 如果前面匹配了 ipq807x、mt7621、bcm53xx 机型文件，则使用对应 tag
@@ -642,7 +642,7 @@ jobs:
               -v "${{ github.workspace }}/custom:/home/build/immortalwrt/files/etc/config" \
               -v "${{ github.workspace }}/arch/arch.conf:/home/build/immortalwrt/files/etc/opkg/arch.conf" \
               -v "${{ github.workspace }}/shell:/home/build/immortalwrt/shell" \
-              -v "${{ github.workspace }}/mediatek-filogic/build24.sh:/home/build/immortalwrt/build.sh" \
+              -v "${{ github.workspace }}/mediatek-filogic/build23.sh:/home/build/immortalwrt/build.sh" \
               -e PROFILE=$profile \
               -e INCLUDE_DOCKER=$include_docker \
               -e ENABLE_PPPOE=${{ inputs.enable_pppoe }} \
